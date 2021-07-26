@@ -1,5 +1,6 @@
 package com.robinb.mymod;
 
+import com.robinb.mymod.registery.ModBlocks;
 import com.robinb.mymod.registery.ModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -10,6 +11,7 @@ public class MyMod implements ModInitializer {
 	
     @Override
     public void onInitialize() {
-    	ModItems.regiserItems();
+    	ModItems.registerItems();
+    	ModBlocks.registerBlocks();
     }
 }
