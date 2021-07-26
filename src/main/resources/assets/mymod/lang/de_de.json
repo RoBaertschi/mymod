@@ -1,4 +1,6 @@
 { 
 	"item.mymod.ruby": "Rubin",
-	"block.mymod.ruby_block": "Rubin Block"
+	"block.mymod.ruby_block": "Rubin Block",
+	"itemGroup.mymod.general": "My Mod",
+	"itemGroup.mymod.ad_group": "My Advance Tab"
 }
